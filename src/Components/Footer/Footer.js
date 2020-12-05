@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 import {Navbar, Nav, NavItem, NavLink, NavbarBrand} from 'reactstrap';
 
-class NavBar extends Component {
-
+class Footer extends Component {
     render(){
         return(
             <Navbar>
@@ -13,12 +11,12 @@ class NavBar extends Component {
                     </NavbarBrand>
                     <NavItem>
                         <NavLink>
-                            <Link to='/'>Home</Link>
+                            Navbar Item!
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink>
-                            <Link to='/resume'>Resume</Link>
+                            Navbar Item!
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -32,4 +30,4 @@ class NavBar extends Component {
     }
 }
 
-export default NavBar;
+export default Footer;
