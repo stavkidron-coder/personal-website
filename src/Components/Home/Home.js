@@ -3,6 +3,7 @@ import HomeJumboTron from './HomeJumboTron/HomeJumboTron';
 import AboutMe from './AboutMe/AboutMe';
 import PreviousWork from './PreviousWork/PreviousWork';
 import Footer from '../Footer/Footer';
+import Skills from './Skills/Skills';
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         <NavBar/>
         <HomeJumboTron/>
         <AboutMe/>
+        <Skills/>
         <PreviousWork/>
         <Footer/>
     </div>

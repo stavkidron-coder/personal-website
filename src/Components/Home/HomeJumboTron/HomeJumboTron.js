@@ -7,8 +7,11 @@ class HomeJumboTron extends Component {
         return(
             <Jumbotron className="homeJumbo">
                 <Container>
-                    <h1>STAV KIDRON</h1>
-                    <h4>Creative solutions for modern web development</h4>
+                    <div className="jumboTextPanel">
+                        <h1>STAV KIDRON</h1>
+                        <hr className="jumboHr"/>
+                        <h4>Software Developer/Creative Thinker</h4>
+                    </div>
                 </Container>   
             </Jumbotron>
         )
