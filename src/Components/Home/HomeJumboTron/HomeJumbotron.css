@@ -20,3 +20,10 @@
 .jumboHr {
     background-color: white;
 }
+
+.jumboTextBox {
+    padding: 10px;
+    background-color: rgb(226,215,212);
+    color: black;
+    width: 330px;
+}

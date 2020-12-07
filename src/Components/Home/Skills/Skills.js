@@ -14,29 +14,51 @@ class Skills extends Component {
         return(
             <div className="skills">
                 <Container>
-                    <h2 className="title">SKILLS</h2>
-                    <hr/>
+                    <h2>SKILLS</h2>
+                    <hr className="skillsHr"/>
                     <Row>
                         <Col>
-                            <h1>{eyeIcon}</h1>
-                            <h5>An Eye For Design</h5>
-                            <p>Creating a clean and simple experience for the user through pleasing visuals is a must-have.</p>
+                            <div className="skillsCards">
+                                <h1>{eyeIcon}</h1>
+                                <h5>An Eye For Design</h5>
+                                {/* <hr className="skillsHr"/> */}
+                                <br/>
+                                <p>Creating a clean and simple experience for the user through pleasing visuals is a must-have.</p>
+                            </div>
                         </Col>
+
                         <Col>
-                            <h1>{keyboardIcon}</h1>
-                            <h5>Coding Languages</h5>
-                            <p>JavaScript, HTML5, CSS, SQL. Currently Learning C++ and always looking to learn new languages!</p>
+                            <div className="skillsCards">
+                                <h1>{keyboardIcon}</h1>
+                                <h5>Coding Languages</h5>
+                                {/* <hr className="skillsHr"/> */}
+                                <br/>
+                                <p>JavaScript, HTML5, CSS, SQL. Currently Learning C++ and always looking to learn new languages!</p>
+                            </div>
                         </Col>
+
                         <Col>
-                            <h1>{codeIcon}</h1>
-                            <h5>Frameworks</h5>
-                            <p>React, Redux, Node, Express, Bootstrap, Material-UI, PostgreSQL, Passport, Postico, jQuery, AJAX, Git, and GitHub</p>
+                            <div className="skillsCards">
+                                <h1>{codeIcon}</h1>
+                                <h5>Frameworks</h5>
+                                {/* <hr className="skillsHr"/> */}
+                                <br/>
+                                <p>React, Redux, Node, Express, Bootstrap, Material-UI, PostgreSQL, Passport, Postico, jQuery, AJAX, Git, and GitHub</p>
+                            </div>  
                         </Col>
+
                         <Col>
+                        <div className="skillsCards">
                             <h1>{commentIcon}</h1>
                             <h5>Soft Skills</h5>
-                            <p>Technical skills are great but being a good hang is what it's all about and a good hang is what you'll get with me.
+                            {/* <hr className="skillsHr"/> */}
+                            <br/>
+                            <p>
+                                Technical skills are great but being a good hang is what it's
+                                all about and a good hang is what you'll get with me.
                             </p>
+                        </div>
+                            
                         </Col>
                     </Row>
                 </Container>

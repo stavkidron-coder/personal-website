@@ -6,7 +6,7 @@ import {Container, Col, Row} from 'reactstrap';
 class AboutMe extends Component {
     render(){
         return(
-            <div className="aboutMe">
+            <div className="aboutMe" id="about">
                 <Container>
                     <Row>
                         <Col xs="6" className="aboutMeRight">

@@ -1,7 +1,16 @@
 .nav-link {
-    color: white;
+    color: black;
 }
 
 .nav-link:hover {
     color: rgb(199, 199, 199) !important;
+}
+
+.logo {
+    /* position: absolute; */
+    height: 50px;
+}
+
+.navLeft {
+    padding: 7px;
 }

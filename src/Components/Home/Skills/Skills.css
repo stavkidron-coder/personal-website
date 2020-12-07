@@ -1,5 +1,31 @@
 .skills {
+    color: rgb(244, 238, 238);
     padding: 100px;
-    /* background-color: rgb(255, 241, 224) !important; */
+    background-color: rgb(109,102,89) !important;
+    /* text-align: center; */
+}
+
+.skillsHr {
+    background-color: rgb(33,37,40);
+}
+
+.skillsCard:hover .skillsHr {
+    background-color: rgb(226,215,212);
+}
+
+.skillsCards {
     text-align: center;
+    color: rgb(33,37,40);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(226,215,212);
+    height: 25vh;
+}
+
+.skillsCards:hover {
+    color: rgb(226,215,212) !important;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(33,37,40);
+    height: 25vh;
 }

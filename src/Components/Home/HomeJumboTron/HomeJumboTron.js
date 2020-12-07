@@ -8,9 +8,13 @@ class HomeJumboTron extends Component {
             <Jumbotron className="homeJumbo">
                 <Container>
                     <div className="jumboTextPanel">
+                        <h3>My name is</h3>
                         <h1>STAV KIDRON</h1>
                         <hr className="jumboHr"/>
-                        <h4>Software Developer/Creative Thinker</h4>
+                        <div className="jumboTextBox">
+                            <h3>I'm a Software Developer</h3>
+                        </div>
+                        
                     </div>
                 </Container>   
             </Jumbotron>
