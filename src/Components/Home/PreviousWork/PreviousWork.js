@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import songwriterImg from '../../../Images/songwriterViewSong.png';
 import movieSagasImg from '../../../Images/movieSagas.png';
+import reactGallery from '../../../Images/react-gallery.png';
 import '../PreviousWork/PreviousWork.css'
 import { Container, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Row, Col, CardFooter } from 'reactstrap';
 
@@ -12,6 +13,10 @@ class Work extends Component {
 
     movieSagasBtn = () => {
         window.location.assign('https://movie-saga.herokuapp.com/#/')
+    }
+
+    reactGalleryBtn = () => {
+        window.location.assign('https://react-instagram-gallery.herokuapp.com/')
     }
 
     render(){
@@ -48,6 +53,21 @@ class Work extends Component {
                                 </CardBody>
                                 <CardFooter>
                                     <Button className="viewAppBtn" color="outline-primary" onClick={this.movieSagasBtn}>View App</Button>
+                                </CardFooter>
+                            </Card>
+                        </Col>
+
+                        <Col xs="4">
+                            <Card className="projectCards">
+                                <CardImg src={reactGallery} alt="react-gallery" />
+                                <CardBody>
+                                <CardTitle tag="h5">REACT GALLERY</CardTitle>
+                                <hr/>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">An Instagram-like image gallery</CardSubtitle>
+                                <CardText>An image gallery where you can like, add, and delete images.</CardText>
+                                </CardBody>
+                                <CardFooter>
+                                    <Button className="viewAppBtn" color="outline-primary" onClick={this.reactGalleryBtn}>View App</Button>
                                 </CardFooter>
                             </Card>
                         </Col>
