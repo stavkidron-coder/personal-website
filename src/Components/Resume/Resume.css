@@ -1,0 +1,94 @@
+.resumeJumbo {
+    margin-top: 76px;
+    margin-bottom: 0px !important;
+    background-color: rgb(33,37,40) !important;
+    color: white;
+    border-radius: 0 !important;
+}
+
+.resumeJumboHr {
+    background-color: white;
+}
+
+.resumePortrait {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.resumeTitle {
+    margin-top: 60px;
+}
+
+.bio {
+    background-color: rgb(226,215,212);
+    padding: 30px;
+}
+
+.resumeSkills {
+    padding: 30px;
+    background-color: rgb(109,102,89);
+}
+
+.resumeSkills h2 {
+    color: white;
+}
+
+.resumeSkills hr {
+    background-color: white;
+}
+
+.experience {
+    padding: 30px;
+    background-color: rgb(38,31,34);
+}
+
+.experience h2 {
+    color: white;
+}
+
+.experience hr {
+    background-color: white;
+}
+
+.experienceSection {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+    background-color: ghostwhite;
+}
+
+.experienceHeader {
+    background-color: rgb(230,226,225);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.education {
+    padding: 30px;
+    background-color: rgb(226,222,219);
+}
+
+.volunteer {
+    padding: 30px;
+    background-color: rgb(32,52,59);
+}
+
+.volunteer h2 {
+    color: white;
+}
+
+.volunteer hr {
+    background-color: white;
+}
+
+.resumeJumboIcon {
+    color: white;
+    transition: 0.5s;
+}
+
+.resumeJumboIcon:hover {
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    margin-left: 5px;
+}

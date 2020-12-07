@@ -13,6 +13,7 @@
 
 .projectCards {
     height: 50vh;
+    transition: 0.5s;
 }
 
 .projectCards:hover {
