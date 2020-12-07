@@ -17,7 +17,7 @@ class Skills extends Component {
                     <h2>SKILLS</h2>
                     <hr className="skillsHr"/>
                     <Row>
-                        <Col>
+                        <Col data-aos="fade-right" data-aos-duration="1000">
                             <div className="skillsCards">
                                 <h1>{eyeIcon}</h1>
                                 <h5>An Eye For Design</h5>
@@ -27,7 +27,7 @@ class Skills extends Component {
                             </div>
                         </Col>
 
-                        <Col>
+                        <Col data-aos="fade-right" data-aos-duration="750">
                             <div className="skillsCards">
                                 <h1>{keyboardIcon}</h1>
                                 <h5>Coding Languages</h5>
@@ -37,7 +37,7 @@ class Skills extends Component {
                             </div>
                         </Col>
 
-                        <Col>
+                        <Col data-aos="fade-right" data-aos-duration="500">
                             <div className="skillsCards">
                                 <h1>{codeIcon}</h1>
                                 <h5>Frameworks</h5>
@@ -47,7 +47,7 @@ class Skills extends Component {
                             </div>  
                         </Col>
 
-                        <Col>
+                        <Col data-aos="fade-right" data-aos-duration="250">
                         <div className="skillsCards">
                             <h1>{commentIcon}</h1>
                             <h5>Soft Skills</h5>

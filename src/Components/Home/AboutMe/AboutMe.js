@@ -8,7 +8,7 @@ class AboutMe extends Component {
         return(
             <div className="aboutMe" id="about">
                 <Container>
-                    <Row>
+                    <Row data-aos="fade-up" data-aos-duration="1000">
                         <Col xs="6" className="aboutMeRight">
                             <img src={Portrait} alt="Portrait img" className="portraitImg"/>
                         </Col>

@@ -74,7 +74,7 @@ class Resume extends Component {
                                         <h2>Skills</h2>
                                         <hr/>
                                         <ListGroup>
-                                            <ListGroupItem>
+                                            <ListGroupItem className="skillsList">
                                                 <h5>Software languages and frameworks:</h5>
                                                 <ul>
                                                     <li>React</li>

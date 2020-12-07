@@ -24,9 +24,9 @@ class Contact extends Component {
                                 Want to learn more about me and get in touch? Connect with me
                                 on LinkedIn, check out my GitHub, and reach out! I'm always up for a hang.
                             </h6>
-                            <h4 ><a href="https://github.com/stavkidron-coder" className="contactIcon">{githubIcon} stavkidron-coder</a></h4>
-                            <h4><a href="https://www.linkedin.com/in/stavkidron/" className="contactIcon">{linkedInIcon} linkedin.com/stavkidron</a></h4>
-                            <h4>{emailIcon} kidronstav@gmail.com</h4>
+                            <h5><a href="https://github.com/stavkidron-coder" className="contactIcon">{githubIcon} stavkidron-coder</a></h5>
+                            <h5><a href="https://www.linkedin.com/in/stavkidron/" className="contactIcon">{linkedInIcon} linkedin.com/stavkidron</a></h5>
+                            <h5>{emailIcon} kidronstav@gmail.com</h5>
                         </Col>
                             
                         <Col xs="6" className="contactPic">
