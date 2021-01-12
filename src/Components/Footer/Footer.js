@@ -5,7 +5,8 @@ import {Navbar, Nav, NavbarBrand, NavbarText} from 'reactstrap';
 class Footer extends Component {
     render(){
         return(
-            <Navbar>
+            
+            <Navbar className="footer">
                 <Nav>
                     <NavbarBrand className="footerBrand">
                         <img src={Logo} className="logo" alt="logo"/>
