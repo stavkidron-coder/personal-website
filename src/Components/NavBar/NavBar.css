@@ -1,5 +1,8 @@
+
+
 .nav-link {
-    color: black;
+    color: black !important;
+    transition: 0.3s;
 }
 
 .nav-link:hover {
@@ -7,7 +10,6 @@
 }
 
 .logo {
-    /* position: absolute; */
     height: 50px;
 }
 
