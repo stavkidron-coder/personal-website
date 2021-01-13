@@ -17,7 +17,7 @@ class Contact extends Component {
                 <Container>
                     
                     <Row>
-                        <Col xs="6">
+                        <Col xs="12" md="6" className="contactText">
                         <h1>Contact</h1>
                         <hr/>
                             <h6>
@@ -26,10 +26,10 @@ class Contact extends Component {
                             </h6>
                             <h5><a href="https://github.com/stavkidron-coder" className="contactIcon">{githubIcon} stavkidron-coder</a></h5>
                             <h5><a href="https://www.linkedin.com/in/stavkidron/" className="contactIcon">{linkedInIcon} linkedin.com/stavkidron</a></h5>
-                            <h5>{emailIcon} kidronstav@gmail.com</h5>
+                            <h5 className="contactIcon">{emailIcon} <a href="mailto:kidronstav@gmail.com" className="emailLink">kidronstav@gmail.com</a></h5>
                         </Col>
                             
-                        <Col xs="6" className="contactPic">
+                        <Col xs="12" md="6" className="contactPic">
                             <img src={PortraitSquare} className="squarePortrait" alt="portrait"/>
                         </Col>
                     </Row>

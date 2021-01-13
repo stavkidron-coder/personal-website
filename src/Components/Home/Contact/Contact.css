@@ -22,3 +22,15 @@
 .contactPic {
     text-align: center;
 }
+
+.contactText {
+    margin-bottom: 10px;
+}
+
+.emailLink {
+    color: black;
+}
+
+.emailLink:hover {
+    color: rgb(74, 74, 74) !important;
+}
