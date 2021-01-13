@@ -11,4 +11,9 @@
 .portraitImg {
     height: 475px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+/* .aboutMeTitle {
+    padding-top: 10px;
+} */

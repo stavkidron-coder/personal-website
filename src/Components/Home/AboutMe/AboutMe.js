@@ -9,11 +9,14 @@ class AboutMe extends Component {
             <div className="aboutMe" id="about">
                 <Container>
                     <Row data-aos="fade-up" data-aos-duration="1000">
-                        <Col xs="6" className="aboutMeRight">
+                        <Col xs="12" lg="6" className="aboutMeRight">
                             <img src={Portrait} alt="Portrait img" className="portraitImg"/>
                         </Col>
-                        <Col xs="6">
-                            <h3>About Me</h3>
+                        <Col xs="12" lg="6">
+                            <div className="aboutMeTitle">
+                                <h3>About Me</h3>
+                                <hr className="darkHr"/>
+                            </div>
                             <p>If you're looking for a creative thinker who's always ready for a challenge,
                                 has a keen eye for design, and is just an overall good hang then look no further!
                                 (I know that may have sounded cheesy but it's true)

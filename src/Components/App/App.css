@@ -11,3 +11,7 @@
 .title {
     text-align: center;
 }
+
+.darkHr {
+  background-color: black;
+}
