@@ -27,7 +27,7 @@ class Work extends Component {
                     <hr className="prevWorkHr"/>
                     <br/>
                     <Row>
-                        <Col xs="4" data-aos="zoom-in-up" data-aos-duration="400">
+                        <Col xs="12" sm="6" lg="4" data-aos="zoom-in-up" data-aos-duration="400">
                             <Card className="projectCards">
                                 <CardImg src={songwriterImg} alt="SONGWRITER" />
                                 <CardBody>
@@ -42,7 +42,7 @@ class Work extends Component {
                             </Card>
                         </Col>
 
-                        <Col xs="4" data-aos="zoom-in-up" data-aos-duration="700">
+                        <Col xs="12" sm="6" lg="4" data-aos="zoom-in-up" data-aos-duration="700">
                             <Card className="projectCards">
                                 <CardImg src={movieSagasImg} alt="SONGWRITER" />
                                 <CardBody>
@@ -57,7 +57,7 @@ class Work extends Component {
                             </Card>
                         </Col>
 
-                        <Col xs="4" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <Col xs="12" sm="6" lg="4" data-aos="zoom-in-up" data-aos-duration="1000">
                             <Card className="projectCards">
                                 <CardImg src={reactGallery} alt="react-gallery" />
                                 <CardBody>
