@@ -12,7 +12,8 @@
 }
 
 .projectCards {
-    height: 50vh;
+    height: 53vh;
+    margin-bottom: 25px;
     transition: 0.5s;
 }
 
