@@ -21,3 +21,46 @@
     background-color: rgb(11, 11, 11);
     color: white;
 }
+
+.songwriter-description {
+    /* border: 1px solid rgb(126, 126, 126); */
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.songwriterDescriptionTitle {
+    background-color: rgb(169, 120, 199);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border-bottom: 1px solid white; */
+    padding: 15px;
+}
+
+.workDescTextContainer {
+    padding: 15px;
+}
+
+.descriptionFooter {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    right: 15px;
+}
+
+.video-right {
+    float: right;
+}
+
+.video-left {
+    float: left;
+}
+
+.locavoriDescriptionTitle {
+    background-color: rgb(122,172,85);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border-bottom: 1px solid white; */
+    padding: 15px;
+}
