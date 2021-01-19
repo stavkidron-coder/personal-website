@@ -98,7 +98,7 @@ class Work extends Component {
                                     </p>
                                 </div>
                                 <div className="descriptionFooter">
-                                    <Button color="primary" onClick={this.songwriterBtn}>View App</Button>
+                                    <Button className="purpleBtn" onClick={this.songwriterBtn}>View App</Button>
                                 </div>
                             </div>
                         </Col>
