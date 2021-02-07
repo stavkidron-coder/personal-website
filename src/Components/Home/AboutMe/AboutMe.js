@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../AboutMe/AboutMe.css';
-import Portrait from '../../../Images/Portrait.jpeg';
+import Portrait from '../../../Images/portrait-comp.jpeg';
 import {Container, Col, Row} from 'reactstrap';
 
 class AboutMe extends Component {
@@ -17,7 +17,8 @@ class AboutMe extends Component {
                                 <h3>About Me</h3>
                                 <hr className="darkHr"/>
                             </div>
-                            <p>If you're looking for a creative thinker who's always ready for a challenge,
+                            <p>
+                                If you're looking for a creative thinker who's   always ready for a challenge,
                                 has a keen eye for design, and is just an overall good hang then look no further!
                                 (I know that may have sounded cheesy but it's true)
                             </p>
@@ -25,7 +26,7 @@ class AboutMe extends Component {
                             <p>
                                 Coming from the highly creative field of audio engineering and music production,
                                 I have learned to think critically and problem-solve FAST in creative ways.
-                                I've also learned that being technically proficient is great and very necessary but 
+                                I've also learned that being technically proficient is great and necessary but 
                                 more importantly is building strong connections by being the person that you can't
                                 wait to work with again and again. That is who I pride myself as being.
                             </p>

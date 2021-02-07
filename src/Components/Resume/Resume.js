@@ -3,7 +3,7 @@ import { Col, Container, Jumbotron, ListGroup, ListGroupItem, Row } from 'reacts
 import '../Resume/Resume.css';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
-import PortraitSquare from '../../Images/portrait-square.jpg';
+import PortraitSquare from '../../Images/portrait-square-comp.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -23,7 +23,14 @@ class Resume extends Component {
                             <Col xs="6">
                                 <h1 className="resumeTitle">What I'm All About</h1>
                                 <hr className="resumeJumboHr"/>
-                                <h5>{emailIcon} kidronstav@gmail.com</h5>
+                                
+                                <h5>
+                                    <a
+                                        href="mailto:kidronstav@gmail.com"
+                                        className="resumeJumboIcon">
+                                            {emailIcon} kidronstav@gmail.com
+                                    </a>
+                                </h5>
                                 <h5>
                                     <a
                                         href="https://github.com/stavkidron-coder"
@@ -49,27 +56,29 @@ class Resume extends Component {
 
                 <div className="resumeBody">
                     
+{/* Bio */}
                         <div className="bio">
                             <Container>       
                                 <Row>
                                     <Col xs="8">
-                                        <h2>Bio</h2>
+                                        <h2>Objective</h2>
                                         <hr/>
                                         <p>
-                                            I am an experienced Audio Engineer and Musician with a demonstrated
-                                            history of working in the entertainment industry. I’ve always been
-                                            intrigued by the software side of audio production and how it works.
-                                            Therefore, software development seemed like the perfect next logical
-                                            step in my engineering journey.
+                                            With a keen eye for design and a passion for growing and learning
+                                            in a collaborative and creative environment, I am ready to explore
+                                            exciting opportunities in software development. I bring experience in
+                                            interaction with customers, helping to transform their vision to a
+                                            finished product while problem-solving in real-time.
                                         </p>
                                     </Col>
                                 </Row>
                             </Container>
                         </div>
 
+{/* Skills */}
                         <div className="resumeSkills">
                             <Container>
-                                <Row>
+                                {/* <Row> */}
                                     <Col xs="8">
                                         <h2>Skills</h2>
                                         <hr/>
@@ -78,21 +87,21 @@ class Resume extends Component {
                                                 <h5>Software languages and frameworks:</h5>
                                                 <ul>
                                                     <li>React</li>
-                                                    <li>JavaScript</li>
-                                                    <li>Bootstrap</li>
-                                                    <li>PostgreSQL</li>
+                                                    <li>React Native</li>
                                                     <li>Redux</li>
+                                                    <li>Wordpress</li>
+                                                    <li>JavaScript</li>
                                                     <li>jQuery</li>
+                                                    <li>PHP</li>
+                                                    <li>PostgreSQL</li>
                                                     <li>HTML</li>
                                                     <li>CSS</li>
                                                     <li>Node</li>
                                                     <li>Express</li>
+                                                    <li>Passport</li>
                                                     <li>Heroku</li>
                                                     <li>Material-Ui</li>
-                                                    <li>Passport</li>
-                                                    <li>React Sortable HOC</li>
-                                                    <li>Fontawesome</li>
-                                                    <li>Git</li>
+                                                    <li>Bootstrap</li>
                                                     <li>Github</li>
                                                     <li>VS Code</li>
                                                 </ul>
@@ -116,30 +125,81 @@ class Resume extends Component {
 
                                             </ListGroup>
                                         </Col>
-                                    </Row>
+                                    {/* </Row> */}
                                 </Container>
                             </div>
 
+{/* Experience */}
                             <div className="experience">
                                 <Container> 
                                     <Row>
                                         <Col xs="8">
                                             <h2>Experience</h2>
                                             <hr/>
+                                        </Col>   
+                                    </Row>
+                                    
+                                    <Row>
+                                        <Col xs="8">
+                                            <div className="experienceSection">
+                                                <h5 className="experienceHeader">Front-End Developer</h5>
+                                                <h6>Locavori (Group Project)</h6>
+                                                <h6>December 2020 - January 2021</h6>
+                                                <ul>
+                                                    <li>
+                                                        Worked remotely with a team of five for a local client to
+                                                        create a full-stack web application that allows users to search
+                                                        for local foods/goods artisans in a 2-week sprint
+                                                    </li>
+                                                    <li>Led front-end development and design to curate a pleasant user
+                                                        experience and collaborated with UX/UI team to implement designs
+                                                        into the project</li>
+                                                    <li>
+                                                        <strong>Technologies used:</strong> React.js, Redux, Node.js, PostgreSQL, Bootstrap, Google Maps APIs
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </Col>
+                                    </Row>
+
+                                    <Row>
+                                        <Col xs="8">
+                                            <div className="experienceSection">
+                                                <h5 className="experienceHeader">Full-Stack Developer</h5>
+                                                <h6>SONGWRITER (Personal Project)</h6>
+                                                <h6>November 2020</h6>
+                                                <ul>
+                                                    <li>
+                                                        Developed a full-stack web application that allows songwriters
+                                                        to store, edit, and view their song information in an easy to
+                                                        understand user interface
+                                                    </li>
+                                                    <li>Independently came up with solutions to complex problems</li>
+                                                    <li>
+                                                        <strong>Technologies used:</strong> React.js, Redux, Node.js, Express, PostgreSQL, Bootstrap
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </Col>
+                                    </Row>
+
+                                    <Row>
+                                        <Col xs="8">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Full-Stack Engineering Student</h5>
                                                 <h6>Prime Digital Academy</h6>
-                                                <h6>August 2020 - Present</h6>
+                                                <h6>August 2020 - January 2021</h6>
                                                 <ul>
-                                                    <li> Accelerated immersion program focusing on software development and soft skills training for real-world experience</li>
-                                                    <li> Working with teams remotely to accomplish goals</li>
-                                                    <li> Learning new technologies and languages in a fast-paced environment</li>
-                                                    <li><h6>SONGWRITER Solo Project</h6></li>
-                                                    <ul>
-                                                        <li>Addressed the issue of song writers not having a practical location to store their song information.</li>
-                                                        <li> Web app that stores song information such as lyrics, key, Tempo, etc. to be viewed and edited.</li>
-                                                        <li> Technologies used: React, JavaScript, PostgreSQL, Node, Express, Heroku, Bootstrap, Fontawesome</li>
-                                                    </ul>
+                                                    <li>
+                                                        Accelerated immersion program focusing on software development and
+                                                        soft skills training for real-world experience
+                                                    </li>
+                                                    <li>Worked remotely as a team member to solve complex problems</li>
+                                                    <li>
+                                                        Learned new technologies in a fast-paced environment while employing
+                                                        efficient time management skills coordinating with teammates, studies,
+                                                        and a part-time job.
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </Col>
@@ -222,6 +282,7 @@ class Resume extends Component {
                                 </Container>
                             </div>
 
+{/* Education */}
                             <div className="education">
                                 <Container>
                                 <Row>
@@ -230,7 +291,7 @@ class Resume extends Component {
                                         <hr/>
                                         <div className="experienceSection">
                                             <h5 className="experienceHeader">Prime Digital Academy</h5>
-                                            <h6>Graduating January 2021</h6>
+                                            <h6>Graduated January 2021</h6>
                                             <ul>
                                                 <li>Immersive Software Development Program</li>
                                                 <li>Full-stack Software Engineering Certificate</li>
@@ -254,6 +315,7 @@ class Resume extends Component {
                                 </Container>
                             </div>
 
+{/* Volunteer */}
                             <div className="volunteer">
                                 <Container>
                                 <Row>
