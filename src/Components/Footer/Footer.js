@@ -13,7 +13,8 @@ class Footer extends Component {
                     </NavbarBrand>    
                 </Nav>
                 <NavbarText>
-                    <p>This webpage was built with React and Bootstrap</p>
+                    <center>This webpage was built with React and Bootstrap</center>
+                    <p>*optimized for desktop view</p>
                 </NavbarText>  
             </Navbar>
         )

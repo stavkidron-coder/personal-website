@@ -23,7 +23,14 @@ class Resume extends Component {
                             <Col xs="6">
                                 <h1 className="resumeTitle">What I'm All About</h1>
                                 <hr className="resumeJumboHr"/>
-                                <h5>{emailIcon} kidronstav@gmail.com</h5>
+                                
+                                <h5>
+                                    <a
+                                        href="mailto:kidronstav@gmail.com"
+                                        className="resumeJumboIcon">
+                                            {emailIcon} kidronstav@gmail.com
+                                    </a>
+                                </h5>
                                 <h5>
                                     <a
                                         href="https://github.com/stavkidron-coder"

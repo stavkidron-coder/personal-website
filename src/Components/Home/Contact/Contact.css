@@ -10,8 +10,7 @@
 .contactIcon:hover {
     color: rgb(74, 74, 74) !important;
     text-decoration: none;
-    margin-left: 5px;
-    
+    margin-left: 5px; 
 }
 
 .squarePortrait {
