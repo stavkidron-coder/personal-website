@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Logo from '../../Images/logo3.png';
+import Logo from '../../Images/logo-comp.png';
 import {Navbar, Nav, NavbarBrand, NavbarText} from 'reactstrap';
 
 class Footer extends Component {
