@@ -15,3 +15,8 @@
 .darkHr {
   background-color: black;
 }
+
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+}
