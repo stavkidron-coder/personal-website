@@ -1,5 +1,6 @@
 .previousWork {
-    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: rgb(33,37,40);
 }
 
@@ -55,7 +56,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
   }
 
 .locavoriDescriptionTitle {
@@ -66,18 +67,6 @@
     padding: 15px;
 }
 
-.purpleBtn {
-    background-color: rgb(169, 120, 199) !important;
-    color: white !important;
-    border: none !important;
-  }
-  
-  .purpleBtn:hover {
-    background-color: rgb(137, 91, 165)!important;
-    color: white!important;
-    border: none!important;
-  }
-
   .cardWrapper {
       display: flex;
       justify-content: space-evenly !important;
@@ -86,4 +75,11 @@
 
   .workCard {
       margin-bottom: 20px;
+  }
+
+  .descriptionFooter {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10%;
+      margin-bottom: 10%;
   }

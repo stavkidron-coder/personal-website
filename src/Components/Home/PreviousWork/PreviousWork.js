@@ -8,16 +8,18 @@ import { Container, Button, Row, Col } from 'reactstrap';
 
 class Work extends Component {
 
-    songwriterBtn = () => {
-        window.location.assign('https://song--writer.herokuapp.com/')
-    }
+    // songwriterBtn = () => {
+    //     window.location.assign('https://song--writer.herokuapp.com/')
+    // }
 
     render(){
         return(
             <div className="previousWork">
                 
                 <Container fluid="lg">
-                    <h2 className="prevWorkTitle">PREVIOUS WORK</h2>
+                    <div className="sectionTitle">
+                        <h2 className="prevWorkTitle">PREVIOUS WORK</h2>
+                    </div>
                     <hr className="prevWorkHr"/>
                     <br/>
 
@@ -52,9 +54,10 @@ class Work extends Component {
                                             React, Redux, Node.js, PostgreSQL, Bootstrap
                                         </p>
                                     </div>
-                                    <div className="descriptionFooter">
+
+                                    {/* <div className="descriptionFooter">
                                         <Button className="purpleBtn" onClick={this.songwriterBtn}>View App</Button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             
                         </Col>
