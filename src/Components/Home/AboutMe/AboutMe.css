@@ -1,19 +1,25 @@
 .aboutMe {
-    padding: 100px;
+    /* padding: 100px; */
     background-color: rgb(226,215,212);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .aboutMeRight {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
 .portraitImg {
-    height: 475px;
+    max-height: 475px;
+    min-width: auto;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-/* .aboutMeTitle {
-    padding-top: 10px;
-} */
+.aboutMeTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

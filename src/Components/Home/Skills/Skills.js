@@ -17,7 +17,7 @@ class Skills extends Component {
                     <h2>SKILLS</h2>
                     <hr className="skillsHr"/>
                     <Row>
-                        <Col data-aos="fade-right" data-aos-duration="1000" xs="12" md="6" lg="3">
+                        <Col data-aos="fade-right" data-aos-duration="1000" xs="12" md="6" lg="3" fluid>
                             <div className="skillsCards">
                                 <h1>{eyeIcon}</h1>
                                 <h5>An Eye For Design</h5>

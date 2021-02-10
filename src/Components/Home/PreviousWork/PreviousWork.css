@@ -42,20 +42,21 @@
     padding: 15px;
 }
 
-.descriptionFooter {
-    position: absolute;
-    bottom: 0;
-    padding: 10px;
-    right: 15px;
-}
-
-.video-right {
-    float: right;
-}
-
-.video-left {
-    float: left;
-}
+.player-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    padding: 2%;
+  }
+  
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 .locavoriDescriptionTitle {
     background-color: rgb(122,172,85);
@@ -75,4 +76,14 @@
     background-color: rgb(137, 91, 165)!important;
     color: white!important;
     border: none!important;
+  }
+
+  .cardWrapper {
+      display: flex;
+      justify-content: space-evenly !important;
+      flex-wrap: wrap;
+  }
+
+  .workCard {
+      margin-bottom: 20px;
   }

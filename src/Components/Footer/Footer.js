@@ -14,8 +14,7 @@ class Footer extends Component {
                 </Nav>
                 <NavbarText>
                     <center>This webpage was built with React and Bootstrap</center>
-                    <p>*optimized for desktop view</p>
-                </NavbarText>  
+                </NavbarText>
             </Navbar>
         )
     }
