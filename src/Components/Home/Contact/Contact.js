@@ -19,8 +19,10 @@ class Contact extends Component {
                     
                     <Row>
                         <Col xs="12" md="6" className="contactText">
-                        <h1>Contact</h1>
-                        <hr className="darkHr"/>
+                            <div className="sectionTitle">
+                                <h1>Contact</h1>
+                            </div>
+                            <hr className="darkHr"/>
                             <h6>
                                 Want to learn more about me and get in touch? Connect with me
                                 on LinkedIn, check out my GitHub, and reach out! I'm always up for a hang.

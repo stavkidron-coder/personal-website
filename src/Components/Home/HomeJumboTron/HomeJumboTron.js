@@ -13,9 +13,11 @@ class HomeJumboTron extends Component {
                             
                             <hr className="jumboHr"/>
                             
-                            <div className="jumboTextBox">
-                                <h3>Software Developer</h3>
-                            </div>
+                            <Col xs="12">
+                                <div className="jumboTextBox">
+                                    <h4>&lt;Software_developer/&gt;</h4>
+                                </div>
+                            </Col>
                         </Col>
                     </Row>
                     

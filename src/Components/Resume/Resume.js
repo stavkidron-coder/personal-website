@@ -7,6 +7,7 @@ import PortraitSquare from '../../Images/portrait-square-comp.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Image from 'react-bootstrap/Image'
 
 const githubIcon = <FontAwesomeIcon icon={faGithub}/>
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedin}/>
@@ -20,7 +21,7 @@ class Resume extends Component {
                 <Jumbotron className="resumeJumbo">
                     <Container>
                         <Row>   
-                            <Col xs="6">
+                            <Col xs="12" lg="6">
                                 <h1 className="resumeTitle">What I'm All About</h1>
                                 <hr className="resumeJumboHr"/>
                                 
@@ -46,8 +47,8 @@ class Resume extends Component {
                                     </a>
                                 </h5>
                             </Col>
-                            <Col xs="6">
-                                <img src={PortraitSquare} alt="portrait" className="resumePortrait"/>
+                            <Col xs="12" lg="6">
+                                <Image src={PortraitSquare} alt="portrait" className="resumePortrait" fluid/>
                             </Col>
                         </Row>
                         
@@ -60,7 +61,7 @@ class Resume extends Component {
                         <div className="bio">
                             <Container>       
                                 <Row>
-                                    <Col xs="8">
+                                    <Col xs="12" lg="8">
                                         <h2>Objective</h2>
                                         <hr/>
                                         <p>
@@ -79,8 +80,11 @@ class Resume extends Component {
                         <div className="resumeSkills">
                             <Container>
                                 {/* <Row> */}
-                                    <Col xs="8">
-                                        <h2>Skills</h2>
+                                    <Col xs="12">
+                                        <div>
+                                            <h2>Skills</h2>
+                                        </div>
+                                        
                                         <hr/>
                                         <ListGroup>
                                             <ListGroupItem className="skillsList">
@@ -133,14 +137,14 @@ class Resume extends Component {
                             <div className="experience">
                                 <Container> 
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <h2>Experience</h2>
                                             <hr/>
                                         </Col>   
                                     </Row>
                                     
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Front-End Developer</h5>
                                                 <h6>Locavori (Group Project)</h6>
@@ -163,7 +167,7 @@ class Resume extends Component {
                                     </Row>
 
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Full-Stack Developer</h5>
                                                 <h6>SONGWRITER (Personal Project)</h6>
@@ -184,7 +188,7 @@ class Resume extends Component {
                                     </Row>
 
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Full-Stack Engineering Student</h5>
                                                 <h6>Prime Digital Academy</h6>
@@ -206,7 +210,7 @@ class Resume extends Component {
                                     </Row>
 
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Audio Engineer/Producer</h5>
                                                 <h6>F5 SoundHouse</h6>
@@ -221,7 +225,7 @@ class Resume extends Component {
                                     </Row>
                                     
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Podcast Editor/Audio Engineer</h5>
                                                 <h6>One Agora Integrative Health</h6>
@@ -236,7 +240,7 @@ class Resume extends Component {
                                     </Row>
 
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Music Production Instructor</h5>
                                                 <h6>Freelance</h6>
@@ -251,7 +255,7 @@ class Resume extends Component {
                                     </Row>
                                     
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">Repair Tech</h5>
                                                 <h6>Guitar Center</h6>
@@ -266,7 +270,7 @@ class Resume extends Component {
                                     </Row>
                                     
                                     <Row>
-                                        <Col xs="8">
+                                        <Col xs="12">
                                             <div className="experienceSection">
                                                 <h5 className="experienceHeader">AV Technician</h5>
                                                 <h6>PSAV</h6>
@@ -286,7 +290,7 @@ class Resume extends Component {
                             <div className="education">
                                 <Container>
                                 <Row>
-                                    <Col xs="8">
+                                    <Col xs="12">
                                         <h2>Education</h2>
                                         <hr/>
                                         <div className="experienceSection">
@@ -301,7 +305,7 @@ class Resume extends Component {
                                 </Row>
                                 
                                 <Row>
-                                    <Col xs="8">
+                                    <Col xs="12">
                                         <div className="experienceSection">
                                             <h5 className="experienceHeader">Minneapolis Media Institute</h5>
                                             <h6>Graduated February 2016</h6>
@@ -319,7 +323,7 @@ class Resume extends Component {
                             <div className="volunteer">
                                 <Container>
                                 <Row>
-                                    <Col xs="8">
+                                    <Col xs="12">
                                         <h2>Volunteer Experience</h2>
                                         <hr/>
                                         <div className="experienceSection">
@@ -340,7 +344,7 @@ class Resume extends Component {
                                 </Row>
 
                                 <Row>
-                                    <Col xs="8">
+                                    <Col xs="12">
                                         <div className="experienceSection">
                                             <h5 className="experienceHeader">ARC Value Village Thrift Store/Donation Center</h5>
                                             <h6>November 2015</h6>
