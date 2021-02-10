@@ -15,3 +15,25 @@
 .darkHr {
   background-color: black;
 }
+
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.purpleBtn {
+  background-color: rgb(169, 120, 199) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.purpleBtn:hover {
+  background-color: rgb(137, 91, 165)!important;
+  color: white!important;
+  border: none!important;
+}
+
+.disclaimer {
+  text-align: right;
+  font-size: smaller;
+}

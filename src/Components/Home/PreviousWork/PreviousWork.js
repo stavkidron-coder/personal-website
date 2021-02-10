@@ -8,69 +8,73 @@ import { Container, Button, Row, Col } from 'reactstrap';
 
 class Work extends Component {
 
-    songwriterBtn = () => {
-        window.location.assign('https://song--writer.herokuapp.com/')
-    }
-
-    movieSagasBtn = () => {
-        window.location.assign('https://movie-saga.herokuapp.com/#/')
-    }
-
-    reactGalleryBtn = () => {
-        window.location.assign('https://react-instagram-gallery.herokuapp.com/')
-    }
+    // songwriterBtn = () => {
+    //     window.location.assign('https://song--writer.herokuapp.com/')
+    // }
 
     render(){
         return(
             <div className="previousWork">
-                <Container>
-                    <h2 className="prevWorkTitle">PREVIOUS WORK</h2>
+                
+                <Container fluid="lg">
+                    <div className="sectionTitle">
+                        <h2 className="prevWorkTitle">PREVIOUS WORK</h2>
+                    </div>
                     <hr className="prevWorkHr"/>
                     <br/>
 
-                    <Row>
-                        <Col xs="12" xl="8">
-                            <ReactPlayer url="https://youtu.be/Vp5uYotTg4U" className="video-left"/>
-                        </Col>
-                        <Col xs="12" xl="4">
-                            <div className="songwriter-description">
-                                <h3 className="prevWorkTitle songwriterDescriptionTitle">
-                                    SONGWRITER
-                                </h3>
+                    <div className="cardWrapper">
 
-                                <div className="workDescTextContainer">
-                                    <p className="workDescriptionText">
-                                        SONGWRITER is a web app that allows artists to document the songwriting
-                                        and pre-production process and store songs securely online so that they don’t have to
-                                        worry about losing work ever again.
-                                    </p>
-                                    <h5>
-                                        Technologies Used:
-                                    </h5>
-                                    <p>
-                                        React, Redux, Node.js, PostgreSQL, Bootstrap
-                                    </p>
-                                </div>
-                                <div className="descriptionFooter">
-                                    <Button className="purpleBtn" onClick={this.songwriterBtn}>View App</Button>
-                                </div>
-                            </div>
-                        </Col>
-                    </Row>
+                    {/* <Row> */}
+                        <Col xs="12" xl="5" className="workCard">
+                            
+                                <div className="songwriter-description">
+                                    <h3 className="prevWorkTitle songwriterDescriptionTitle">
+                                        SONGWRITER
+                                    </h3>
 
-                    <br/>
-                    <hr className="prevWorkHr"/>
-                    <br/>
-                    
-                    <Row>
-                    <Col xs="12" xl="8">
-                            <ReactPlayer url="https://youtu.be/P7m1ms_7cPs" className="video-left"/>
+                                    <div className="player-wrapper">
+                                        <ReactPlayer
+                                            url="https://youtu.be/Vp5uYotTg4U"
+                                            className="react-player"
+                                            width='100%'
+                                            height='100%'/>
+                                    </div>
+
+                                    <div className="workDescTextContainer">
+                                        <p className="workDescriptionText">
+                                            SONGWRITER is a web app that allows artists to document the songwriting
+                                            and pre-production process and store songs securely online so that they don’t have to
+                                            worry about losing work ever again.
+                                        </p>
+                                        <h5>
+                                            Technologies Used:
+                                        </h5>
+                                        <p>
+                                            React, Redux, Node.js, PostgreSQL, Bootstrap
+                                        </p>
+                                    </div>
+
+                                    {/* <div className="descriptionFooter">
+                                        <Button className="purpleBtn" onClick={this.songwriterBtn}>View App</Button>
+                                    </div> */}
+                                </div>
+                            
                         </Col>
-                        <Col xs="12" xl="4">
+
+                        <Col xs="12" xl="5" className="workCard">
                             <div className="songwriter-description">
                                 <h3 className="prevWorkTitle locavoriDescriptionTitle">
                                     Locavori
                                 </h3>
+
+                                <div className="player-wrapper">
+                                    <ReactPlayer
+                                        url="https://youtu.be/P7m1ms_7cPs"
+                                        className="react-player"
+                                        width='100%'
+                                        height='100%'/>
+                                </div>
 
                                 <div className="workDescTextContainer">
                                     <p className="workDescriptionText">
@@ -87,6 +91,11 @@ class Work extends Component {
                                 </div>
                             </div>
                         </Col>
+                    {/* </Row> */}
+                    </div>
+                    
+                    <Row>
+                        
                         
                     </Row>
                 </Container>

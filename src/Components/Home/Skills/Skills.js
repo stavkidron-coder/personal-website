@@ -14,10 +14,12 @@ class Skills extends Component {
         return(
             <div className="skills">
                 <Container>
-                    <h2>SKILLS</h2>
+                    <div className="sectionTitle">
+                        <h2>SKILLS</h2>
+                    </div>
                     <hr className="skillsHr"/>
                     <Row>
-                        <Col data-aos="fade-right" data-aos-duration="1000" xs="12" md="6" lg="3">
+                        <Col data-aos="fade-right" data-aos-duration="1000" xs="12" md="6" lg="3" fluid>
                             <div className="skillsCards">
                                 <h1>{eyeIcon}</h1>
                                 <h5>An Eye For Design</h5>
@@ -31,7 +33,6 @@ class Skills extends Component {
                             <div className="skillsCards">
                                 <h1>{keyboardIcon}</h1>
                                 <h5>Coding Languages</h5>
-                                {/* <hr className="skillsHr"/> */}
                                 <br/>
                                 <p>JavaScript, HTML5, CSS, SQL. Currently Learning C++ and always looking to learn new languages!</p>
                             </div>
