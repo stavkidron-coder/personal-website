@@ -5,6 +5,7 @@ import PortraitSquare from '../../../Images/portrait-square-comp.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Image from 'react-bootstrap/Image'
 
 const githubIcon = <FontAwesomeIcon icon={faGithub}/>
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedin}/>
@@ -19,7 +20,7 @@ class Contact extends Component {
                     <Row>
                         <Col xs="12" md="6" className="contactText">
                         <h1>Contact</h1>
-                        <hr/>
+                        <hr className="darkHr"/>
                             <h6>
                                 Want to learn more about me and get in touch? Connect with me
                                 on LinkedIn, check out my GitHub, and reach out! I'm always up for a hang.
@@ -30,7 +31,7 @@ class Contact extends Component {
                         </Col>
                             
                         <Col xs="12" md="6" className="contactPic">
-                            <img src={PortraitSquare} className="squarePortrait" alt="portrait"/>
+                            <Image src={PortraitSquare} className="squarePortrait" alt="portrait" fluid/>
                         </Col>
                     </Row>
                     

@@ -32,3 +32,8 @@
   color: white!important;
   border: none!important;
 }
+
+.disclaimer {
+  text-align: right;
+  font-size: smaller;
+}
