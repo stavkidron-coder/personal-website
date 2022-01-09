@@ -1,35 +1,43 @@
 .contactPage {
-    padding: 30px;
-    background-color: rgb(226,222,219);
+  padding: 30px;
+  background-color: rgb(226, 222, 219);
 }
 
 .contactIcon {
-    color: black !important;
-    transition: 0.5s;
+  color: black !important;
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
 }
 .contactIcon:hover {
-    color: rgb(74, 74, 74) !important;
-    text-decoration: none;
-    margin-left: 5px; 
+  color: rgb(74, 74, 74) !important;
+  text-decoration: none;
+  margin-left: 5px;
 }
 
 .squarePortrait {
-    max-height: 300px;
-    border-radius: 50%;
+  max-height: 300px;
+  border-radius: 50%;
 }
 
 .contactPic {
-    text-align: center;
+  text-align: center;
 }
 
 .contactText {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .emailLink {
-    color: black;
+  color: black;
 }
 
 .emailLink:hover {
-    color: rgb(74, 74, 74) !important;
+  color: rgb(74, 74, 74) !important;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
 }

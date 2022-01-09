@@ -18,37 +18,34 @@ class Contact extends Component {
         <Container>
           <Row>
             <Col xs="12" md="6" className="contactText">
-              <div className="sectionTitle">
-                <h1>Contact</h1>
-              </div>
+              <h2>Contact</h2>
               <hr className="darkHr" />
-              <h6>
+              <p className="large-text">
                 Want to learn more about me and get in touch? Connect with me on
                 LinkedIn, check out my GitHub, and reach out! I'm always up for
                 a hang.
-              </h6>
-              <h5>
+              </p>
+              <div className="links-container">
                 <a
                   href="https://github.com/stavkidron-coder"
                   className="contactIcon"
                 >
                   {githubIcon} stavkidron-coder
                 </a>
-              </h5>
-              <h5>
                 <a
                   href="https://www.linkedin.com/in/stavkidron/"
                   className="contactIcon"
                 >
                   {linkedInIcon} linkedin.com/stavkidron
                 </a>
-              </h5>
-              <h5 className="contactIcon">
-                {emailIcon}{" "}
-                <a href="mailto:kidronstav@gmail.com" className="emailLink">
-                  kidronstav@gmail.com
+
+                <a
+                  href="mailto:kidronstav@gmail.com"
+                  className="emailLink contactIcon"
+                >
+                  {emailIcon} kidronstav@gmail.com
                 </a>
-              </h5>
+              </div>
             </Col>
 
             <Col xs="12" md="6" className="contactPic">

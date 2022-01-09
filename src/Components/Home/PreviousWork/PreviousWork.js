@@ -15,7 +15,6 @@ class Work extends Component {
           <br />
 
           <div className="cardWrapper">
-            {/* <Row> */}
             <Col xs="12" xl="5" className="workCard">
               <div className="songwriter-description">
                 <h3 className="prevWorkTitle songwriterDescriptionTitle">
@@ -43,7 +42,7 @@ class Work extends Component {
                     securely online so that they don’t have to worry about
                     losing work ever again.
                   </p>
-                  <h5>Technologies Used:</h5>
+                  <h4>Technologies Used:</h4>
                   <p>React, Redux, Node.js, PostgreSQL, Bootstrap</p>
                 </div>
               </div>
@@ -77,11 +76,13 @@ class Work extends Component {
                     local artisans to create a profile and advertise their
                     products.
                   </p>
-                  <h5>Technologies Used:</h5>
-                  <p>
-                    React, Redux, Node.js, PostgreSQL, Bootstrap, Google Maps
-                    APIs (Maps, Distance Matrix, Places, Geolocation)
-                  </p>
+                  <div>
+                    <h4>Technologies Used:</h4>
+                    <p>
+                      React, Redux, Node.js, PostgreSQL, Bootstrap, Google Maps
+                      APIs (Maps, Distance Matrix, Places, Geolocation)
+                    </p>
+                  </div>
                 </div>
               </div>
             </Col>

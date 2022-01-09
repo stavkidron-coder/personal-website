@@ -1,15 +1,15 @@
 @font-face {
-    font-family: "Branch";
-    src: url(../../Fonts/Branch.ttf) format("truetype");
-  }
+  font-family: "Branch";
+  src: url(../../Fonts/Branch.ttf) format("truetype");
+}
 
 @font-face {
-    font-family: "Marie-regular";
-    src: url(../../Fonts/Marie-regular.ttf) format("truetype");
-  }
+  font-family: "Marie-regular";
+  src: url(../../Fonts/Marie-regular.ttf) format("truetype");
+}
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .darkHr {
@@ -28,12 +28,17 @@
 }
 
 .purpleBtn:hover {
-  background-color: rgb(137, 91, 165)!important;
-  color: white!important;
-  border: none!important;
+  background-color: rgb(137, 91, 165) !important;
+  color: white !important;
+  border: none !important;
 }
 
 .disclaimer {
   text-align: right;
   font-size: smaller;
+}
+
+.large-text {
+  font-size: 18px;
+  font-weight: 500;
 }
