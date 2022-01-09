@@ -1,16 +1,9 @@
 import React, { Component } from "react";
-// import songwriterImg from '../../../Images/songwriterViewSong.png';
-// import movieSagasImg from '../../../Images/movieSagas.png';
-// import reactGallery from '../../../Images/react-gallery.png';
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/lazy";
 import "../PreviousWork/PreviousWork.css";
 import { Container, Row, Col } from "reactstrap";
 
 class Work extends Component {
-  // songwriterBtn = () => {
-  //     window.location.assign('https://song--writer.herokuapp.com/')
-  // }
-
   render() {
     return (
       <div className="previousWork">
@@ -31,6 +24,11 @@ class Work extends Component {
 
                 <div className="player-wrapper">
                   <ReactPlayer
+                    config={{
+                      youtube: {
+                        playerVars: { origin: "https://www.youtube.com" },
+                      },
+                    }}
                     url="https://youtu.be/Vp5uYotTg4U"
                     className="react-player"
                     width="100%"
@@ -48,10 +46,6 @@ class Work extends Component {
                   <h5>Technologies Used:</h5>
                   <p>React, Redux, Node.js, PostgreSQL, Bootstrap</p>
                 </div>
-
-                {/* <div className="descriptionFooter">
-                                        <Button className="purpleBtn" onClick={this.songwriterBtn}>View App</Button>
-                                    </div> */}
               </div>
             </Col>
 
@@ -63,6 +57,11 @@ class Work extends Component {
 
                 <div className="player-wrapper">
                   <ReactPlayer
+                    config={{
+                      youtube: {
+                        playerVars: { origin: "https://www.youtube.com" },
+                      },
+                    }}
                     url="https://youtu.be/P7m1ms_7cPs"
                     className="react-player"
                     width="100%"

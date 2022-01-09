@@ -8,7 +8,13 @@ class Footer extends Component {
       <Navbar className="footer">
         <Nav>
           <NavbarBrand className="footerBrand">
-            <img src={Logo} className="logo" alt="logo" />
+            <img
+              src={Logo}
+              className="logo"
+              alt="logo"
+              width="61.31px"
+              height="50px"
+            />
           </NavbarBrand>
         </Nav>
         <NavbarText className="disclaimer">

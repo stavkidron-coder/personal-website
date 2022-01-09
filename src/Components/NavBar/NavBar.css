@@ -1,18 +1,12 @@
-
-
 .nav-link {
-    color: black !important;
-    transition: 0.3s;
+  color: black !important;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
-    color: rgb(145, 145, 145) !important;
-}
-
-.logo {
-    height: 50px;
+  color: rgb(145, 145, 145) !important;
 }
 
 .navLeft {
-    padding: 7px;
+  padding: 7px;
 }
