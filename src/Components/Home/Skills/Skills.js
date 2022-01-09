@@ -32,10 +32,8 @@ class Skills extends Component {
               lg="3"
             >
               <div className="skillsCards">
-                <h1>{eyeIcon}</h1>
-                <h5>An Eye For Design</h5>
-                {/* <hr className="skillsHr"/> */}
-                <br />
+                <span className="icon">{eyeIcon}</span>
+                <h3>An Eye For Design</h3>
                 <p>
                   Creating a clean and simple experience for the user through
                   pleasing visuals is a must-have.
@@ -51,9 +49,8 @@ class Skills extends Component {
               lg="3"
             >
               <div className="skillsCards">
-                <h1>{keyboardIcon}</h1>
-                <h5>Coding Languages</h5>
-                <br />
+                <span className="icon">{keyboardIcon}</span>
+                <h3>Coding Languages</h3>
                 <p>
                   JavaScript, HTML5, CSS, SQL. Currently Learning C++ and always
                   looking to learn new languages!
@@ -69,10 +66,8 @@ class Skills extends Component {
               lg="3"
             >
               <div className="skillsCards">
-                <h1>{codeIcon}</h1>
-                <h5>Frameworks</h5>
-                {/* <hr className="skillsHr"/> */}
-                <br />
+                <span className="icon">{codeIcon}</span>
+                <h3>Frameworks</h3>
                 <p>
                   React, Redux, Node, Express, Bootstrap, Material-UI,
                   PostgreSQL, Passport, Postico, jQuery, AJAX, Git, and GitHub
@@ -88,10 +83,8 @@ class Skills extends Component {
               lg="3"
             >
               <div className="skillsCards">
-                <h1>{commentIcon}</h1>
-                <h5>Soft Skills</h5>
-                {/* <hr className="skillsHr"/> */}
-                <br />
+                <span className="icon">{commentIcon}</span>
+                <h3>Soft Skills</h3>
                 <p>
                   Technical skills are great but being a good hang is what it's
                   all about and a good hang is what you'll get with me.

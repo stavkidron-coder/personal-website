@@ -1,34 +1,38 @@
 .skills {
-    color: rgb(244, 238, 238);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: rgb(109,102,89) !important;
+  color: rgb(244, 238, 238);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(109, 102, 89) !important;
 }
 
 .skillsHr {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .skillsCard:hover .skillsHr {
-    background-color: rgb(226,215,212);
+  background-color: rgb(226, 215, 212);
 }
 
 .skillsCards {
-    text-align: center;
-    color: rgb(33,37,40);
-    border-radius: 5px;
-    padding: 10px;
-    background-color: rgb(226,215,212);
-    /* padding: 10px; */
-    min-height: 25vh;
-    transition: 0.25s;
-    margin-bottom: 25px;
+  text-align: center;
+  color: rgb(33, 37, 40);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(226, 215, 212);
+  /* padding: 10px; */
+  min-height: 25vh;
+  transition: 0.25s;
+  margin-bottom: 25px;
 }
 
 .skillsCards:hover {
-    color: rgb(226,215,212) !important;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: rgb(33,37,40);
-    min-height: 25vh;
+  color: rgb(226, 215, 212) !important;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(33, 37, 40);
+  min-height: 25vh;
+}
+
+.icon {
+  font-size: 36px;
 }
